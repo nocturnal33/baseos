@@ -1,0 +1,17 @@
+cups*
+ipp-usb
+bluez*
+pulseaudio*
+pavucontrol
+xfce4-power-manager-data
+libgweather-*
+liblouis*
+libgeonames*
+libtimezonemap*
+gnome-keyring
+xfce4-weather-plugin
+xfce4-mailwatch-plugin
+xfce4-weather-plugin
+xfce4-mailwatch-plugin
+xfce4-dict
+xfce4-sensors-plugin

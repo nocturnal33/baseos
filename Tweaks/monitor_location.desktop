@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Remove Panel Plugin
+Exec=/home/operator/.config/fix_unsecure_location.sh &
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false

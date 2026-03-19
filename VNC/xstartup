@@ -1,0 +1,18 @@
+#!/bin/sh
+# ~/.vnc/xstartup
+
+VNCDIR="${HOME}/.vnc"
+
+# load X resources
+if [ -r "$VNCDIR/.Xresources" ]; then
+  xrdb "$VNCDIR/.Xresources"
+fi
+
+# set a background
+xsetroot -solid grey
+
+# disable XKB auto‑mapping tweaks
+export XKL_XMODMAP_DISABLE=1
+
+# launch XFCE under a DBus session—and stay in the foreground so VNC watches it
+exec dbus-launch --exit-with-session startxfce4

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Remove Panel Plugin
+Exec=/home/operator/.vnc/xfce4-tweaks.sh
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false

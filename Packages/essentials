@@ -1,0 +1,12 @@
+apt-utils
+curl
+dbus-x11
+inotify-tools
+locales
+net-tools
+sudo
+supervisor
+tar
+unzip
+wget
+ca-certificates

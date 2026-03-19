@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=VSCode
+Exec=/opt/share/VSCode-linux-x64/bin/code --no-sandbox
+Icon=/opt/share/VSCode-linux-x64/resources/app/resources/linux/code.png
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Development;IDE;FOO
