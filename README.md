@@ -21,4 +21,9 @@ docker run -d -p 6901:6901 -v $(pwd)/DATA:~/workspace --name base baseos
 Open a web browser and go to 
 http://localhost:6901
 
+You can also clone this repo and build the docker
+```bash
+docker build -t baseos .
+docker run -d -p 6901:6901 <any other options> baseos
+```
 
