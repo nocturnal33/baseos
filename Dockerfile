@@ -2,7 +2,7 @@ ARG BASE_IMAGE=ubuntu
 ARG BASE_IMAGE_VERSION=24.04
 FROM ${BASE_IMAGE}:${BASE_IMAGE_VERSION}
 
-LABEL maintainer="Nathan Carlson <nathan.p.carlson@dartmouth.edu>"
+LABEL maintainer="nocturnal33"
 LABEL description="base OS"
 
 ##############################
